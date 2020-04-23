@@ -1,0 +1,33 @@
+{
+	"from_country": null,
+	"from_zip": "",
+	"from_state": "FL",
+	"from_city": "Juno Beach",
+	"from_street": "790 Juno Ocean Walk #402-403",
+	"to_country": "US",
+	"to_zip": "33467",
+	"to_state": "FL",
+	"to_city": "Lake Worth",
+	"to_street": "3667 Woods Walk Blvd",
+	"amount": 0.0,
+	"shipping": 9.95,
+	"nexus_addresses": [
+		{
+			"Id": "STO",
+			"Country": "US",
+			"State": "FL",
+			"City": "Lake Worth",
+			"Street": "3667 Woods Walk Blvd",
+			"Zip": "33467"
+		}
+	],
+	"line_items": [
+		{
+			"id": "N95-1",
+			"product_tax_code": null,
+			"unit_price": 1000.0,
+			"quantity": 300,
+			"discount": 0.0
+		}
+	]
+}

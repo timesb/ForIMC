@@ -1,0 +1,72 @@
+{
+	"tax": {
+		"amount_to_collect": 21000.7,
+		"breakdown": {
+			"city_tax_collectable": 0.0,
+			"city_tax_rate": 0.0,
+			"city_taxable_amount": 0.0,
+			"combined_tax_rate": 0.07,
+			"county_tax_collectable": 3000.1,
+			"county_tax_rate": 0.01,
+			"county_taxable_amount": 300009.95,
+			"line_items": [
+				{
+					"city_amount": 0.0,
+					"city_tax_rate": 0.0,
+					"city_taxable_amount": 0.0,
+					"combined_tax_rate": 0.07,
+					"county_amount": 3000.0,
+					"county_tax_rate": 0.01,
+					"county_taxable_amount": 300000.0,
+					"id": "100",
+					"special_district_amount": 0.0,
+					"special_district_taxable_amount": 0.0,
+					"special_tax_rate": 0.0,
+					"state_amount": 18000.0,
+					"state_sales_tax_rate": 0.06,
+					"state_taxable_amount": 300000.0,
+					"tax_collectable": 21000.0,
+					"taxable_amount": 300000.0
+				}
+			],
+			"shipping": {
+				"city_amount": 0.0,
+				"city_tax_rate": 0.0,
+				"city_taxable_amount": 0.0,
+				"combined_tax_rate": 0.07,
+				"county_amount": 0.1,
+				"county_tax_rate": 0.01,
+				"county_taxable_amount": 9.95,
+				"special_district_amount": 0.0,
+				"special_tax_rate": 0.0,
+				"special_taxable_amount": 0.0,
+				"state_amount": 0.6,
+				"state_sales_tax_rate": 0.06,
+				"state_taxable_amount": 9.95,
+				"tax_collectable": 0.7,
+				"taxable_amount": 9.95
+			},
+			"special_district_tax_collectable": 0.0,
+			"special_district_taxable_amount": 0.0,
+			"special_tax_rate": 0.0,
+			"state_tax_collectable": 18000.6,
+			"state_tax_rate": 0.06,
+			"state_taxable_amount": 300009.95,
+			"tax_collectable": 21000.7,
+			"taxable_amount": 300009.95
+		},
+		"freight_taxable": true,
+		"has_nexus": true,
+		"jurisdictions": {
+			"city": "LAKE WORTH",
+			"country": "US",
+			"county": "PALM BEACH",
+			"state": "FL"
+		},
+		"order_total_amount": 300009.95,
+		"rate": 0.07,
+		"shipping": 9.95,
+		"tax_source": "destination",
+		"taxable_amount": 300009.95
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"rate": {
+		"County": null,
+		"Country_Rate": 0.0,
+		"State_Rate": 0.0,
+		"County_Rate": 0.0,
+		"City_Rate": 0.0,
+		"Combined_District_Rate": 0.0,
+		"Combined_Rate": 0.0,
+		"Freight_Taxable": false,
+		"Country": "US",
+		"State": "FL",
+		"City": "Juno Beach",
+		"Street": "123 any street",
+		"Zip": "33408"
+	}
+}

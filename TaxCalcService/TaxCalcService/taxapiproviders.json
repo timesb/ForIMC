@@ -1,0 +1,21 @@
+{
+  "defaulttaxapi": "TaxJarApi",
+  "taxapiproviders": [
+    {
+      "name": "TaxJarApi",
+      "assemblyfqn": "TaxJarApiClient.TaxJarApiCaller , TaxJarApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "clrtype": "TaxJarApiCaller",
+      "geturl": "taxjar.com/v2/tax",
+      "posturl": "taxjar.com/tax",
+      "apitoken": "INSERTREALLICENSEDTOKENHERE"
+    },
+    {
+        "name": "ZipTaxMock",
+        "assemblyfqn": "ZipTaxMock.ZipTaxMock , ZipTaxMockClient, Version=1.0.0.0, Culture=neutral",
+        "clrtype": "ZipTaxMockCaller",
+        "geturl": "localhost:8888/v2/tax",
+        "posturl": "localhost:8888/tax/post",
+        "apitoken": "123abc"
+    }
+  ]
+}

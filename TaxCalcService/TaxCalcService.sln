@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalcService", "TaxCalcService\TaxCalcService.csproj", "{6215122A-E81C-4DF5-BA07-49D4A52B6F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxJarApiClient", "ExternalTaxApis\TaxJarClient\TaxJarApiClient.csproj", "{EAFE2A71-DFB2-4C8E-840A-57B966C579F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalTaxApis", "ExternalTaxApis", "{F382A5CE-D55B-459D-B362-DC2DF3C08BD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "ClientDataModel\Models.csproj", "{BD9BCBF4-D4E2-48A7-B172-6E1042BFB321}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserAppConsole", "ConsoleUserApp\UserAppConsole.csproj", "{3B0E722B-4F37-46B6-959C-2AB2C85755F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockZipTaxApiClient", "ExternalTaxApis\MockZipTaxApiClient\MockZipTaxApiClient.csproj", "{B841D185-DC1C-44C7-B5D2-5ADF81DBB4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxServiceClientCallingTests", "TaxServiceClientCallingTests\TaxServiceClientCallingTests.csproj", "{1F03DECC-AD20-4337-8BE2-3815CA7D3B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EC371C15-5985-4427-9118-958467D32F8A}"
+	ProjectSection(SolutionItems) = preProject
+		SubmittedSolution_ReadMe.rtf = SubmittedSolution_ReadMe.rtf
+		Documentation\TaxCalcService.docx = Documentation\TaxCalcService.docx
+		TheAsk(Requirements).rtf = TheAsk(Requirements).rtf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML Diagrams", "UML Diagrams", "{AD7DFAF0-2FE1-4C99-A66A-E5BC01ACA2E4}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\UML Diagrams\u1.png = Documentation\UML Diagrams\u1.png
+		Documentation\UML Diagrams\u2.png = Documentation\UML Diagrams\u2.png
+		Documentation\UML Diagrams\u3.png = Documentation\UML Diagrams\u3.png
+		Documentation\UML Diagrams\u4.png = Documentation\UML Diagrams\u4.png
+		Documentation\UML Diagrams\u5.png = Documentation\UML Diagrams\u5.png
+		Documentation\UML Diagrams\u6.png = Documentation\UML Diagrams\u6.png
+		Documentation\UML Diagrams\u7.png = Documentation\UML Diagrams\u7.png
+		Documentation\UML Diagrams\u8.png = Documentation\UML Diagrams\u8.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{59A3BA7F-C013-4722-AF96-94AC174D70F4}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\sampleOrderUpload-2.json = Documentation\sampleOrderUpload-2.json
+		Documentation\sampleOrderUpload.json = Documentation\sampleOrderUpload.json
+		Documentation\SampleTaxCalcServicePingOutput_showsBeforeAndAfterDynamicLibraryLoading.txt = Documentation\SampleTaxCalcServicePingOutput_showsBeforeAndAfterDynamicLibraryLoading.txt
+		Documentation\taxjarapi_ordercalcresponse.json = Documentation\taxjarapi_ordercalcresponse.json
+		Documentation\taxjarapi_taxForLocation_Response.json = Documentation\taxjarapi_taxForLocation_Response.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6215122A-E81C-4DF5-BA07-49D4A52B6F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6215122A-E81C-4DF5-BA07-49D4A52B6F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6215122A-E81C-4DF5-BA07-49D4A52B6F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6215122A-E81C-4DF5-BA07-49D4A52B6F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFE2A71-DFB2-4C8E-840A-57B966C579F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFE2A71-DFB2-4C8E-840A-57B966C579F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFE2A71-DFB2-4C8E-840A-57B966C579F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFE2A71-DFB2-4C8E-840A-57B966C579F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9BCBF4-D4E2-48A7-B172-6E1042BFB321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9BCBF4-D4E2-48A7-B172-6E1042BFB321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9BCBF4-D4E2-48A7-B172-6E1042BFB321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9BCBF4-D4E2-48A7-B172-6E1042BFB321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0E722B-4F37-46B6-959C-2AB2C85755F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0E722B-4F37-46B6-959C-2AB2C85755F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0E722B-4F37-46B6-959C-2AB2C85755F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0E722B-4F37-46B6-959C-2AB2C85755F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B841D185-DC1C-44C7-B5D2-5ADF81DBB4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B841D185-DC1C-44C7-B5D2-5ADF81DBB4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B841D185-DC1C-44C7-B5D2-5ADF81DBB4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B841D185-DC1C-44C7-B5D2-5ADF81DBB4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F03DECC-AD20-4337-8BE2-3815CA7D3B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F03DECC-AD20-4337-8BE2-3815CA7D3B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F03DECC-AD20-4337-8BE2-3815CA7D3B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F03DECC-AD20-4337-8BE2-3815CA7D3B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAFE2A71-DFB2-4C8E-840A-57B966C579F6} = {F382A5CE-D55B-459D-B362-DC2DF3C08BD2}
+		{B841D185-DC1C-44C7-B5D2-5ADF81DBB4DD} = {F382A5CE-D55B-459D-B362-DC2DF3C08BD2}
+		{AD7DFAF0-2FE1-4C99-A66A-E5BC01ACA2E4} = {EC371C15-5985-4427-9118-958467D32F8A}
+		{59A3BA7F-C013-4722-AF96-94AC174D70F4} = {EC371C15-5985-4427-9118-958467D32F8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77829413-7766-42ED-9D38-FF1C90C7E8A2}
+	EndGlobalSection
+EndGlobal

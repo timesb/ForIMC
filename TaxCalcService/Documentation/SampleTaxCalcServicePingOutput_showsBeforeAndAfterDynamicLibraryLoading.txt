@@ -1,0 +1,46 @@
+(Ping output at startup...)
+
+TaxService:
+ 	TaxProvider Settings:
+		Default Tax Api: TaxJarApi
+		TaxApiProviders:
+		TaxApiProvider: TaxJarApi:
+			AssemblyFQN (Fully Qualified Name: TaxJarApiClient.TaxJarApiCaller , TaxJarApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+			CLR Type: TaxJarApiCaller
+			GetUrl: taxjar.com/v2/tax
+			PostUrl: taxjar.com/tax
+			ApiToken: 5da2f821eee4035db4771edab942a4cc
+
+		TaxApiProvider: ZipTaxMock:
+			AssemblyFQN (Fully Qualified Name: ZipTaxMock.ZipTaxMock , ZipTaxMockClient, Version=1.0.0.0, Culture=neutral
+			CLR Type: ZipTaxMockCaller
+			GetUrl: localhost:8888/v2/tax
+			PostUrl: localhost:8888/tax/post
+			ApiToken: 123abc
+
+
+	None
+--------------------
+(Ping - after Zip test...)
+TaxService:
+ 	TaxProvider Settings:
+		Default Tax Api: TaxJarApi
+		TaxApiProviders:
+		TaxApiProvider: TaxJarApi:
+			AssemblyFQN (Fully Qualified Name: TaxJarApiClient.TaxJarApiCaller , TaxJarApiClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+			CLR Type: TaxJarApiCaller
+			GetUrl: taxjar.com/v2/tax
+			PostUrl: taxjar.com/tax
+			ApiToken: 5da2f821eee4035db4771edab942a4cc
+
+		TaxApiProvider: ZipTaxMock:
+			AssemblyFQN (Fully Qualified Name: ZipTaxMock.ZipTaxMock , ZipTaxMockClient, Version=1.0.0.0, Culture=neutral
+			CLR Type: ZipTaxMockCaller
+			GetUrl: localhost:8888/v2/tax
+			PostUrl: localhost:8888/tax/post
+			ApiToken: 123abc
+
+
+	
+	Tax Apis loaded:
+TaxJarApi
